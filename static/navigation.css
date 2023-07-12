@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background-color: #E3E6E6;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img{
+    padding: 5px;
+    width: 104px;
+    height: 42px;
+    margin: 2px;
+}
+
+.address{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.deliver{
+    margin-left: 17px;
+    font-size: 11px;
+    color: #cccc;
+    font-weight: bold;
+    
+}
+
+.search{
+    display: flex;
+}
+
+.select-catagories select{
+    width: 48px;
+    height: 40px;
+    border: none;
+    FONT-SIZE: 14px;
+    outline: none;
+    background-color: #DADADA;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.select-catagories select:hover{
+    background-color: #dadadae3;
+}
+
+
+.search-bar input{
+    width: 50rem;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+}
+
+.search-button button{
+    height: 40px;
+    width: 43px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    background-color: #FEBD69;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-button button:hover{
+    background-color: #ffab3d;
+}
+
+.language{
+    display: flex;
+    padding: 13px 5px;
+    
+}
+
+.language img{
+    height: 14px;
+    width: 20px;
+    
+}
+
+.language p{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.nav-para{
+    font-size: 11px;
+    font-weight: bold;
+}
+.sign-in{
+    padding: 5px;
+}
+
+.sign-in p{
+    font-weight: bold;
+}
+
+.r-o{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.cart{
+    padding: 5px;
+    display: flex;
+}
+
+.cart i{
+    font-size: 37px;
+}
+
+.cart p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.navbar-2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color:#232F3E;
+    height: 2.3rem;
+}
+
+.navbar-2-left{
+    display: flex;
+    justify-content: start;
+    width: 70%;
+}
+
+.navbar-2-left p{
+    margin: 0 7px;
+    font-size: 15px;
+    padding: 5px
+}
+
+.navbar-2-right{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    
+}
+
+.navbar-2-right p {
+    margin: 0 12px;
+    font-size: 15px;
+    padding: 5px
+}
